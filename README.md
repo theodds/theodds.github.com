@@ -1,1 +1,1 @@
-asdfasdfasdf
+$\alpha$ $\beta$ $\gamma$.
