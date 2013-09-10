@@ -1,0 +1,68 @@
+---
+layout: post
+title: "Nested Dirichlet Process"
+description: ""
+category: 
+tags: [Nested Dirichlet Process]
+---
+<!-- MathJax scripts -->
+<script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+<h2>Notation</h2>
+
+<p>The notation in Rodriguez et al. is</p>
+
+<ul>
+<li>\( \pi_k \) denotes the probability mass assigned to random measure \( G_k \). </li>
+<li>\( w_{lk} \) denotes the probability mass assigned to group \( l \) in cluster \( k \).</li>
+<li>\( \zeta_j = k \) if group \( j \) is assigned measure \( k \). </li>
+<li>\( \xi_{ij} = l \) if observation \( ij \) is assigned group \( kl \). </li>
+<li>We need to keep \( \pi'_k \) and \( w'_{kl} \) around as the stick-breaking weights of the two truncations. </li>
+<li>\( L \) is the within-group truncation level, \( K \) is the number of possible groups. So, there are \( K \) total random measures we might be a member of.</li>
+<li>\( \mathbf \phi \) is some global hyperparemeter, depending neither on \( k \) or \( l \).</li>
+<li>We&#39;ll need to keep track of \( m_k \) and \( m_{>k} \), the number of measures assigned to group \( k \) or bigger than group \( k \), as well as \( n_{kl} \) and \( n_{k, >l} \) the number of observations in group \( k \) that are assigned to clusters equal to or bigger than \( l \). </li>
+<li>\( \alpha \) is the concentration parameter for determining whether \( G_j = G_{j'} \), while \( \beta \) is the concentration parameter within \( G_j \). </li>
+<li>I&#39;ll use \( \eta \) for hyperparameters sitting in the base measure \( H \). </li>
+<li>\( \theta_{kl} \) are within cluster parameters.</li>
+<li>We&#39;ll use \( n_j \) (with a single subscript) for the number of observations in group \( j \). </li>
+</ul>
+
+<h2>nDP object should include</h2>
+
+<p>Regardless of what \( p(y \mid \theta, \phi ) \) we take, we will need to store \( \pi, w, n, m, \xi, \zeta \) in the same form. Also, \( \alpha, \beta, a_{\alpha}, a_{\beta}, b_{\alpha}, b_{\beta} \) for the hyperparameters in determining the concentration parameters. </p>
+
+<ul>
+<li>\( L \) and \( K \) are ints. <em>Implemented</em></li>
+<li>\( a_\alpha, \ldots, b_{\beta} \) can be stored as doubles. <em>Implemented</em></li>
+<li>\( n, m \) are stored as uvecs and umats in RcppArmadillo. <em>Implemented</em></li>
+<li>\( w, pi \) will be stored as vecs. We&#39;ll use \( V \) instead of \( \pi \). <em>Implemented</em></li>
+<li>\( \zeta \) and \( \xi \) are stored as uvec and umat respectivly. <em>Implemented</em></li>
+</ul>
+
+<h2>Normal Model</h2>
+
+<p>We&#39;ll write the normal model seperately so that the Poisson or Negative Binomial can be done seperately later. We need</p>
+
+<ul>
+<li>\( \mu, \sigma^2 \) for each \( K \) and \( L \), stored in respective mat and vec objects. </li>
+<li>The base measure \( H \) will be \( N(\mu \mid m_1, s_1) \Gamma^{-1}(\sigma^2 \mid a_1, b_1) \). </li>
+<li>Next, take \( m_1 \sim N(m_2, s_2) \), \( s_1^{2} \sim \Gamma^{-1}(a_2, b_2) \), and \( b_1 \sim \Gamma(a_3, b_3) \). </li>
+</ul>
+
+<p>And of course it needs the data! \( Y \) is the observed data, stored as a mat - each row corresponds to a group.</p>
+
+<h2>Gibbs Sampler</h2>
+
+<p>First, suppose we have the our nDP initialized. The Gibbs sampler should </p>
+
+<ol>
+<li>Update \( \zeta_j \) and \( \xi_{ij} \). This will be <em>very</em> computationally intensive. </li>
+</ol>
+
+<h2>Testing with jags</h2>
+
+<p>Should code up using <code>rjags</code> to see if this is sufficient, i.e. if we can recover the results of the simulation in the article. This would save some coding time. Ultimately, recoding from scratch is probably unavoidable since we won&#39;t be able to do the stochastic approximation otherwise - perhaps this can be altered on-the-fly in jags?</p>
+
