@@ -1,6 +1,25 @@
----
-theme :
-  name : mark-reid
----
-{% include JB/setup %}
-{% include themes/mark-reid/default.html %}
+<!DOCTYPE HTML>
+<!--
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+  {% include head.html %}
+
+	<body class="no-sidebar">
+		<div id="page-wrapper {{ page.title | downcase }}">
+
+      {% include header.html %}
+
+			{{ content }}
+
+      {% include footer.html %}
+
+    </div>
+
+    {% include scripts.html %}
+
+	</body>
+</html>
