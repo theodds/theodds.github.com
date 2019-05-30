@@ -6,10 +6,6 @@ title: "Bayesian Approaches for Missing Not at Random Outcome Data: The Role of 
 blurb: "Statistical Science, 33(2), 198-213."
 source: "https://projecteuclid.org/euclid.ss/1525313142"
 image:
-  url: https://ani.stat.fsu.edu/~arlinero/assets/images/posterior-density-1.png
+  url: /images/posterior-density-1.png
   alt: "posterior-density"
-links:
-  -
-    text: "Supplemental Material"
-    url: "https://ani.stat.fsu.edu/~arlinero/assets/documents/GeneralBNPApproach-Supplement.pdf"
 ---

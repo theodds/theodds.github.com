@@ -4,9 +4,9 @@ displayDate: "2013"
 date: 2013-03-03
 title: "On the Toeplitz lemma, convergence in probability, and mean convergence"
 blurb: "Stochastic Analysis and Applications, 31(4), 684-694."
-source: "https://ani.stat.fsu.edu/~arlinero/assets/documents/Rosalsky-Toeplitz.pdf"
+source: "https://www.tandfonline.com/doi/abs/10.1080/07362994.2013.799406"
 image:
-  url: "https://ani.stat.fsu.edu/~arlinero/assets/images/House_Crow_RWD2.jpg"
+  url: "/images/House_Crow_RWD2.jpg"
   alt: "Bird"
 ---
 

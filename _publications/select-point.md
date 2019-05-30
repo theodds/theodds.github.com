@@ -6,6 +6,6 @@ title: "The power of two: Assessing the impact of a second measurement of the we
 blurb: "Physical Reviews, C. 94(3), 034316."
 source: "https://arxiv.org/abs/1604.07799"
 image:
-  url: "https://ani.stat.fsu.edu/~arlinero/assets/images/SelectPoint.jpg"
+  url: "/images/SelectPoint.jpg"
   alt: "Select Point"
 ---
