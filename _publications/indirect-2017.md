@@ -6,7 +6,7 @@ title: "Bayesian Nonparametric Analysis of Longitudinal Studies in the Presence 
 blurb: "Biometrika, 104(2), 327-341."
 source: "https://academic.oup.com/biomet/article-abstract/104/2/327/3737785/Bayesian-nonparametric-analysis-of-longitudinal?redirectedFrom=fulltext"
 image:
-  url: "https://ani.stat.fsu.edu/~arlinero/assets/images/WorkingModelR.jpg"
+  url: "/images/WorkingModelR.jpg"
   alt: "Indirect"
 links:
   -

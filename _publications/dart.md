@@ -6,6 +6,6 @@ title: "Bayesian Regression Trees for High Dimensional Prediction and Variable S
 blurb: "Journal of the American Statistical Association, 113(552), 626-636."
 source: "http://amstat.tandfonline.com/doi/abs/10.1080/01621459.2016.1264957?journalCode=uasa20"
 image:
-  url: "https://ani.stat.fsu.edu/~arlinero/assets/images/VarSelectEx.jpg"
+  url: "/images/VarSelectEx.jpg"
   alt: "VarSelectEx"
 ---

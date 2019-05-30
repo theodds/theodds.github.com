@@ -6,6 +6,6 @@ title: "A general Bayesian nonparametric approach for missing outcome data"
 blurb: "In Nonparametric Bayesian Inference in Biostatistics."
 source: "http://www.springer.com/us/book/9783319195179"
 image:
-  url: https://ani.stat.fsu.edu/~arlinero/assets/images/ClusterPlot.png
+  url: /images/ClusterPlot.png
   alt: "ClusterPlot"
 ---
