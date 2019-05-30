@@ -6,6 +6,6 @@ title: "A Review of Tree-Based Bayesian Methods"
 blurb: "Communications for Statistical Applications and Methods, 24(6), 543-559."
 source: "./assets/documents/2017-Tree-Review.pdf"
 image:
-  url: ./assets/images/2017-Tree-Review.jpg
+  url: ./images/2017-Tree-Review.jpg
   alt: "Comparisons"
 ---
