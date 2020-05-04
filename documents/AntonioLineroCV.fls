@@ -74,8 +74,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
 INPUT /usr/share/texlive/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
 INPUT /dev/null
-INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
@@ -143,6 +143,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
