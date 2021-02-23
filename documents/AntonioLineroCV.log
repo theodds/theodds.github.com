@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.10)  21 AUG 2020 22:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.10)  21 FEB 2021 21:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -853,26 +853,26 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
-Underfull \hbox (badness 1852) in paragraph at lines 379--379
+Underfull \hbox (badness 1852) in paragraph at lines 384--384
 []|\T1/lmr/m/n/10.95 (+20) R, BUGS/JAGS/STAN, C++, Python, L[]T[]X, Mat-lab/Oct
 ave, Ju-lia,
  []
 
 [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 437.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 437.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 442.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 442.
  (./AntonioLineroCV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 437.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 437.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 442.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 442.
 Package rerunfilecheck Info: File `AntonioLineroCV.out' has not changed.
 (rerunfilecheck)             Checksum: 08AFF64C460858737AACC81493F717A5;1974.
  ) 
 Here is how much of TeX's memory you used:
- 22598 strings out of 481239
- 408406 string characters out of 5920377
+ 22602 strings out of 481239
+ 408448 string characters out of 5920377
  687738 words of memory out of 5000000
  37326 multiletter control sequences out of 15000+600000
- 606939 words of font info for 113 fonts, out of 8000000 for 9000
+ 607105 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,12n,68p,812b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -886,7 +886,7 @@ r/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/pu
 blic/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro17.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/marvosym/marvosym.pfb>
-Output written on AntonioLineroCV.pdf (5 pages, 258946 bytes).
+Output written on AntonioLineroCV.pdf (5 pages, 259142 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  133 compressed objects within 2 object streams
