@@ -28,8 +28,8 @@
           return;
         }
 
-        var emailName = 'arlinero';
-        var emailDomain = 'stat.fsu.edu';
+        var emailName = 'antonio.linero';
+        var emailDomain = 'austin.utexas.edu';
         var $email = $(
           '<span id="email">' +
             '<a href="mailto:' +
