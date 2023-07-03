@@ -124,6 +124,20 @@ body:not(.homepage) {
     text-align: center;
     vertical-align: top;
   }
+
+  .icon.image {
+    width: 2em;
+
+    img {
+      height: 1em;
+      width: 1em;
+
+      &.google-scholar {
+        filter: invert(1);
+        margin-left: -7px;
+      }
+    }
+  }
 }
 
 /****************
